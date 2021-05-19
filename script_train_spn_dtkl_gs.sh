@@ -1,0 +1,2 @@
+#!/usr/bin/env bash
+python train_spn_dtkl_gs.py --batch_size=128 --epochs=300 --gpu=0 --data='cifar100' --save=spn0513_dtkls8_lk5_prl48p1_cls02 --root_path='./results/spn' --workers=32 --learning_rate=0.01 --lr_adjust_type='cosine' --weight_decay=5e-4 --momentum=0.9 --source_model='../results/net/maxpath2spn-20210408-204246/checkpoint_best.pt' --sample_num=8 --look_num=5 --temperature=1.0 --temperature_power=0.0 --distill_coeff=0.8 --max_recover=5

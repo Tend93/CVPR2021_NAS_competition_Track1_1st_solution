@@ -1,0 +1,2 @@
+#!/usr/bin/env bash
+python train_spn_branch_multi.py --batch_size=128 --epochs=300 --gpu=0 --data='cifar100' --save=spn0507_bmufix_s8_prl48p1_selfdt_1e3_300 --root_path='./results/spn' --workers=32 --learning_rate=0.001 --lr_adjust_type='cosine' --weight_decay=5e-4 --momentum=0.9 --source_model='./results/spn/spn0513_dtkls8_lk5_prl48p1_cls02-20210514-170015/checkpoint_ep299.pt' --sample_num=8 --fix_pretrain=True

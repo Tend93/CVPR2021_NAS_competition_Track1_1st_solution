@@ -1,0 +1,2 @@
+#!/usr/bin/env bash
+python train_model_2spn.py --batch_size=128 --epochs=300 --gpu=0 --data='cifar100' --save=maxpath2spn --root_path='./results/net' --workers=32 --learning_rate=0.1 --model_code_str='16-16-16-16-16-16-16-32-32-32-32-32-32-64-64-64-64-64-64-64' --lr_adjust_type='cosine' --weight_decay=5e-4 --momentum=0.9

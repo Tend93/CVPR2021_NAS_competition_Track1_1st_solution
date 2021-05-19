@@ -1,0 +1,3 @@
+#!/usr/bin/env bash
+CHECKPOINT="./results/spn/spn0517_2stage_bma_prl48p1_100_1e3_cls02-20210517-174852/checkpoint_ep59.pt"
+python batch_test_model_single.py ${CHECKPOINT} --batch_size=128 --gpu=0 --data='cifar100' --model_code_path='./results/test_samples/Track1_final_archs.json' --update_bn_portion=0.1 --work_dir='./results/test_samples/spn0517_2stage_bma_prl48p1_100_1e3_cls02/' --model_type='spn_branch_multiall_prl_48p1'
