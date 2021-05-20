@@ -4,8 +4,11 @@
 
 ############# Reproduction Process ########################
 ###########################################################
+
 #Preparing 
+
 1.get cifar100 dataset from https://aistudio.baidu.com/aistudio/projectdetail/1720490?channelType=0&channel=0
+
 
 2.put cifar100 dataset into folder "data"
 
