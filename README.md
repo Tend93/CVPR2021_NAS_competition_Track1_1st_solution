@@ -24,19 +24,19 @@ TITAN XP
 
 ### SPN train
 
-#### 1.train max-path ResNet20:
+#### step 1.train max-path ResNet20:
 
 > ./script_train_net.sh
 
-#### 2.train supernet with KL loss distillation: 
+#### step 2.train supernet with KL loss distillation: 
 
 > ./script_train_spn_dtkl_gs.sh
 
-#### 3.train multi-branch supernet with distillation: 
+#### step 3.train multi-branch supernet with distillation: 
 
 > ./script_train_spn_branch_multi.sh
 
-#### 4.multi-branch supernet training stage2: 
+#### step 4.multi-branch supernet training stage2: 
 
 > ./script_train_spn_branch_multi_2stage.sh
 
