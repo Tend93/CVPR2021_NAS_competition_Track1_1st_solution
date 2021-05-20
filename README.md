@@ -4,7 +4,7 @@ This project is reproduction code for CVPR2021 NAS competition Track1 1st soluti
 
 ## Reproduction Process ########################
 
-#### Preparing 
+### Preparing 
 
 1. get cifar100 dataset from https://aistudio.baidu.com/aistudio/projectdetail/1720490?channelType=0&channel=0
 
@@ -47,11 +47,16 @@ TITAN XP
 
 #### test results
 ./submit/spn0517_2stage_bma_prl48p1_100_1e3_cls02_p59 - test logs of results submitted to leader-board with best pearson score
+
 ./submit/spn0517_2stage_bmafix_prl48p1_100_1e3_cls0_p79 - test logs of results last submitted to leader-board
 
 #### train results
 ./net/maxpath2spn-20210408-204246 - logs and checkpoints by SPN train step 1
+
 ./net/spn0513_dtkls8_lk5_prl48p1_cls02-20210514-170015 - logs and checkpoints by SPN train step 2
+
 ./net/spn0507_bmufix_s8_prl48p1_selfdt_1e3_300-20210515-230111 - logs and checkpoints by SPN train step 3
+
 ./net/spn0517_2stage_bma_prl48p1_100_1e3_cls02-20210517-174852 - logs and checkpoints by SPN train step 4
+
 ./net/spn0517_2stage_bmafix_prl48p1_100_1e3_cls0-20210517-174852 - logs and checkpoints by SPN train step 4
