@@ -50,7 +50,7 @@ TITAN XP
 
 ./submit/spn0517_2stage_bmafix_prl48p1_100_1e3_cls0_p79 - test logs of results last submitted to leader-board
 
-#### train results
+#### training results
 ./net/maxpath2spn-20210408-204246 - logs and checkpoints by SPN train step 1
 
 ./net/spn0513_dtkls8_lk5_prl48p1_cls02-20210514-170015 - logs and checkpoints by SPN train step 2
